@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/justeat/JustLog.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/justeat_tech'
   
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '8.0'
 
   s.source_files = 'JustLog/Classes/**/*', 'JustLog/Extensions/**/*'
 
   s.dependency 'SwiftyBeaver', '~> 1.1.1'
-  s.dependency 'CocoaAsyncSocket', '~> 7.5.0'
+  s.dependency 'CocoaAsyncSocket', '~> 7.4.3'
 
 end
